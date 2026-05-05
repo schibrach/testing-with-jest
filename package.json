@@ -12,7 +12,6 @@
   },
   "license": "MIT",
   "author": "Sandie Schibrach",
-  "type": "commonjs",
   "main": "src/index.js",
   "directories": {
     "test": "tests"
@@ -24,7 +23,11 @@
     "underscore": "^1.13.8"
   },
   "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.5",
+    "babel-loader": "^10.1.1",
     "copy-webpack-plugin": "^14.0.0",
+    "jest": "^30.3.0",
     "webpack": "^5.106.2",
     "webpack-cli": "^7.0.2"
   }
