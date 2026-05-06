@@ -9,7 +9,7 @@ window.onload = function () {
     var display = document.getElementById('top_of_stack');
 
     pop.addEventListener("click", function() {
-        var test = "Tog bort " + stack.pop(); // skrivit fel, ska vara text
+        var text = "Tog bort " + stack.pop(); // Korrigerat från test till text!
         alert(text);
     });
 
