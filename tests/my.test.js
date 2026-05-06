@@ -15,7 +15,7 @@ describe('Egna tester för stack', () => {
 
         const top = stack.peek();
 
-        expect(top).toBe(999);
+        expect(top).toBe(2); // Korrigerat felet 
         expect(stack.pop()).toBe(2);
     });
 
